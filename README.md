@@ -7,7 +7,6 @@ A HUGE number of files for your Bruce Firmware device. These include popular RF,
 [Zero-Sploit - FlipperZero-Subghz-DB](https://github.com/Zero-Sploit/FlipperZero-Subghz-DB)
 
 # ⚠️ DISCLAIMER ⚠️
-# Disclaimer
 
 This repository contains files intended **solely for educational, research, archival, or interoperability purposes**.
 
