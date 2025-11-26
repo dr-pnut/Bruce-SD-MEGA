@@ -1,0 +1,9 @@
+REM Title: Shutdown Windows PC
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING shutdown /s /f /t 0
+ENTER

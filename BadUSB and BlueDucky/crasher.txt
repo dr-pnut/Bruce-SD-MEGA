@@ -1,0 +1,4 @@
+GUI r
+DELAY 500
+STRING https://bit.ly/crash-2024-4
+ENTER

