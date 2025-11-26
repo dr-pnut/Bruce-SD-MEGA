@@ -1,11 +1,6 @@
 # Bruce-SD-MEGA
 A HUGE number of files for your Bruce Firmware device. These include popular RF, IR, portals, AND MORE!
 
-# Sources
-[LucasLHM - Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB)
-[SHUR1K-N - Flipper-Zero-Sub-GHz-Jamming-Files](https://github.com/SHUR1K-N/Flipper-Zero-Sub-GHz-Jamming-Files)
-[Zero-Sploit - FlipperZero-Subghz-DB](https://github.com/Zero-Sploit/FlipperZero-Subghz-DB)
-
 # ⚠️ DISCLAIMER ⚠️
 
 This repository contains files intended **solely for educational, research, archival, or interoperability purposes**.
